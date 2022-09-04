@@ -1,0 +1,40 @@
+.header{
+    background: #ffffff;
+    height: 60px;
+}
+.header>.container{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    background: #000;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    margin-left: 20px;
+}
+.header-menu > .menu-item{
+    margin: 10px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.user-avatar{
+    width: 45px;
+    height: 45px;
+    background: #000;
+    border-radius: 50%;
+}
